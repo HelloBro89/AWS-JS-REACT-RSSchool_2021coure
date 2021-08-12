@@ -1,9 +1,19 @@
+**Manual configured s3bucket/cloudfront resources:**
+
+1. S3 bucket - [http://first-bucket-app.s3-website-eu-west-1.amazonaws.com/](http://first-bucket-app.s3-website-eu-west-1.amazonaws.com/)
+2. CloudFront - [https://d4vnn7usjdowo.cloudfront.net/](https://d4vnn7usjdowo.cloudfront.net/)
+
+**Automated configured s3bucket/cloudfront resources:**
+
+1. S3 bucket - [http://second-bucket-app.s3-website-us-east-1.amazonaws.com/](http://second-bucket-app.s3-website-us-east-1.amazonaws.com/)
+2. CloudFront - [https://d15rn4dgsnt0tq.cloudfront.net](https://d15rn4dgsnt0tq.cloudfront.net)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:  
-You can use NPM instead of YARN (Up to you)  
+You can use NPM instead of YARN (Up to you)
 
 ### `yarn start` OR `npm run start`
 
