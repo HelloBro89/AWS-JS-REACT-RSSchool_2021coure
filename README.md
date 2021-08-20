@@ -1,3 +1,10 @@
+# User guide
+
+1. **npm start** 
+2. **npm build** 
+3. **npm build:deploy** - build and deploy in S3 bucket
+4. **npm cloudfront:update:build:deploy** - build, deploy, creat cloudfront and invalidation (with confirm)
+
 **Manual configured s3bucket/cloudfront resources:**
 
 1. S3 bucket - [http://first-bucket-app.s3-website-eu-west-1.amazonaws.com/](http://first-bucket-app.s3-website-eu-west-1.amazonaws.com/)

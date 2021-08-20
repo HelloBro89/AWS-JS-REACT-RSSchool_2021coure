@@ -1,4 +1,4 @@
-service: second-bucket-app
+service: my-travel-shop
 
 frameworkVersion: '2'
 
@@ -18,7 +18,7 @@ plugins:
 
 custom:
    client:
-      bucketName: second-bucket-app
+      bucketName: my-travel-shop
       distributionFolder: build
    s3BucketName: ${self:custom.client.bucketName}
 
