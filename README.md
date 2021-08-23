@@ -1,9 +1,9 @@
 # User guide
 
-1. **npm start** 
-2. **npm build** 
-3. **npm build:deploy** - build and deploy in S3 bucket
-4. **npm cloudfront:update:build:deploy** - build, deploy, creat cloudfront and invalidation (with confirm)
+1. **npm run start** 
+2. **npm run build** 
+3. **npm run build:deploy** - build and deploy in S3 bucket
+4. **npm run cloudfront:update:build:deploy** - build, deploy, creat cloudfront and invalidation (with confirm)
 
 **Manual configured s3bucket/cloudfront resources:**
 
