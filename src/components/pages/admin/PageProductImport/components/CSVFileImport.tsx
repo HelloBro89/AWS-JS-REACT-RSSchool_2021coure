@@ -39,9 +39,8 @@ export default function CSVFileImport({url, title}: CSVFileImportProps) {
           name: encodeURIComponent(file.name)
         }
       });
-      console.log(`CHECK FIRST URL222: ${url}`);
-      console.log('CHECK FIRST URL333:', response.data.url);
-      console.log('CHECK FIRST URL444:', response);
+      // console.log(`CHECK FIRST URL222: ${url}`);
+      // console.log('CHECK FIRST URL333:', response);
       console.log('File to upload: ', file.name)
       console.log('Uploading to: ', response.data)
       const result = await fetch(response.data, {
