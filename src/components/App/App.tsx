@@ -15,8 +15,6 @@ import PageProductImport from "components/pages/admin/PageProductImport/PageProd
 
 function App() {
   useEffect(() => {
-    // localStorage.setItem('password', 'TEST_PASSWORD');
-    // localStorage.setItem('username', 'HelloBro89');
 
     localStorage.setItem('authorization_token','SGVsbG9Ccm84OTpURVNUX1BBU1NXT1JE');
   },[]);
