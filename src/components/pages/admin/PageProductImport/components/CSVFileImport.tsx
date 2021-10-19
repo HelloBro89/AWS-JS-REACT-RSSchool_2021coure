@@ -38,10 +38,12 @@ export default function CSVFileImport({url, title}: CSVFileImportProps) {
         params: {
           name: encodeURIComponent(file.name)
         },
-        headers: {
-          Authorization: 'Basic ' + authorization_token,
+        headers: 
+           authorization_token
+           ? { Authorization: 'Basic ' + authorization_token } : {}
+          // Authorization: 'Basic ' + authorization_token,
           // Authorization: `Basic SGVsbG9Ccm84OTpURVNUX1BBU1NXT1JE`,
-        }
+        
       });
       console.log('File to upload: ', file.name)
       console.log('Uploading to: ', response.data)

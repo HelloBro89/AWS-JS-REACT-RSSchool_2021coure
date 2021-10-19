@@ -14,6 +14,7 @@ axios.interceptors.response.use(
   },
   function(error) {
     const resStatus = error.response.status;
+    console.log(`***** CHECK STATUS CODE ${resStatus}`);
     console.log(`*****CHECK error.response: ${JSON.stringify(error.response)}`);
     if (error?.response?.status === 400) {
       alert(error.response.data?.data);
