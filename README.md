@@ -30,7 +30,7 @@ To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products
 To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products
 
 3. Get by ID (GET)
-To url: ```javascript https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products/**{productID}**```
+To url: `https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products/{productID}`
 
 ### All actual requests for the backend part are located in the file along the relative path:
 ```bash
