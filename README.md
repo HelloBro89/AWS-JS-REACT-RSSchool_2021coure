@@ -15,7 +15,8 @@
 
 ## Also you can add a product using post request:
 
-To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products                                         **and body:**
+To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products
+#### and body:
 
 ```javascript
     {
