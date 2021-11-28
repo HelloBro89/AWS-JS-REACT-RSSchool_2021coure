@@ -19,4 +19,9 @@ cd src\constants\apiPaths.ts
 4. **npm run build:deploy** - build and deploy in S3 bucket
 5. **npm run cloudfront:update:build:deploy** - build, deploy, creat cloudfront and invalidation (with confirm)
 
+## The front-end part of the application used:
+- React
+- TypeScript
+- Redux
+- material-ui
 
