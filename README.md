@@ -13,8 +13,8 @@
 
 **!!! Сount, price, title and description fields must be filled in as in the example !!!**
 
-## Also you can add a product using post request:
-
+## Also you can add, get by ID or get all a product using post request:
+1. Add product (POST)
 To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products
 #### and body:
 
@@ -26,6 +26,11 @@ To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products
     "count": 9999999
     }
 ```
+2. Get ALL (GET)
+To url: https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products
+
+3. Get by ID (GET)
+To url: "https://b6sld3tghb.execute-api.eu-west-1.amazonaws.com/dev/products/{productID}"
 
 ### All actual requests for the backend part are located in the file along the relative path:
 ```bash
