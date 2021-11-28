@@ -7,6 +7,10 @@
 cd src\constants\apiPaths.ts
 ```
 
+## Additional links:
+- link to bakend https://github.com/HelloBro89/shop-AWS-js-Backend
+- link to cart-api-service https://github.com/HelloBro89/cart-api-backend-shop
+
 ## User guide
 
 1. **npm install**
